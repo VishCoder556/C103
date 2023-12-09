@@ -1,0 +1,59 @@
+ 
+<html>
+    <head>
+      <title>Family Member Recognizer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+  
+    <body>
+    <div class="container" style="text-align:center">
+        <p style="background-color:white;color:black;font-size:22px;">Image Recognition</p>
+        <br><br>
+  
+        <p style="font-size: 22px;">Model is trained to identify all of my family members, including: </p>
+        <ul id="list">
+          <hr>
+          <li>Myself</li>
+          <hr>
+          <li>Mom</li>
+          <hr>
+          <li>Dad</li>
+          <hr>
+          <li>Veda</li>
+          <hr>
+          <li>Vani</li>
+          <hr>
+        </ul>
+        <br><br>
+        <hr style="border-spacing: 50px;">
+        <br><br>
+        <label style="font-size:20px;">Webcam - </label>
+  
+        <br><br>
+        <div id="camera"></div>
+        <br><br>
+        <div id="result"></div>
+        <br><br>
+        <br><br>
+        <button class="btn btn-success">Capture Image</button>
+        <br><br>
+        <button class="btn btn-primary">Identify Image</button>
+        <br><br>
+        <p style="font-size: 22px;">Object :  <span id="object"></span></p>
+        <p style="font-size: 22px;">Accuracy :  <span id="accuracy"></span></p>
+      
+    </div>
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  
+   
